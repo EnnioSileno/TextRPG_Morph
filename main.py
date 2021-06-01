@@ -21,6 +21,7 @@ Commands = {
 
 
 def print_help(p, m):
+    print(Commands.keys())
 
 
 
