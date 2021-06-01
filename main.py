@@ -4,6 +4,12 @@ class Player:
 class Map:
     pass
 
+
+
+
+def print_help(p, m):
+    print(Commands.keys())
+
 Commands = {
     "help": print_help,
     "quit": quit_game,
@@ -18,12 +24,6 @@ Commands = {
     "rest": rest,
     "run": run_away,
     }
-
-
-def print_help(p, m):
-    print(Commands.keys())
-
-
 
 if __name__ == "__main__":
     p = Player(name)
